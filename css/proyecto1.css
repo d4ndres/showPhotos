@@ -1,0 +1,214 @@
+/* *{
+  border: 1px solid red;
+  padding: 0.1px;
+  margin: 5px;
+} */
+/*--------------------------------------------------------------  */
+
+html{
+  background-color: 	#dddddd;
+}
+body{
+  background-color: 	white;
+  width: 1250px;
+  margin: auto;
+}
+.box-block{
+  display: block;
+}
+.box-inlineBlock{
+  display: inline-block;
+}
+.secondCenter{
+  width: 900px;
+  margin: auto;
+}
+.centrateCentrate{
+  margin: auto;
+  width: 60%;
+}
+
+
+
+/*--------------------------------------------------------------  */
+header{
+  padding-bottom: 60px;
+  position: relative;
+  background-color: rgb(44,47,51);
+  margin: 0;
+  font-size: 16px;
+
+}
+.ico{
+  float: left;
+}
+.mainMeniu-box-option{
+  /* margin: 0; */
+  padding: 0;
+  position: absolute;
+  top: 0;
+  right: 100px;
+  /* left: 10px; */
+  margin: 10px 100px;
+}
+.mainMeniu-option{
+  padding: 10px 0px;
+  color: white;
+
+
+}
+.mainMeniu-option a{
+  border-right: 1px solid white;
+  padding: 1px 20px;
+  border-right: 1px solid white;
+}
+.mainMeniu-option:hover{
+  border-top: 3px solid #815959;
+}
+.mainMeniu a{
+  text-decoration: none;
+  color: white;
+
+}
+/*--------------------------------------------------------------  */
+.principalPhoto-container{
+  background-color: #cccccc4f;
+  position: relative;
+  margin: 0;
+  bottom: 5px;
+
+}
+.principalPhoto{
+  margin: auto;
+}
+.contenedor{
+  position: relative;
+  padding-bottom: 600px;
+
+}
+.principalPhoto img{
+  margin: 0;
+  position: absolute;
+  top: 0;
+}
+.principalDescription {
+  position: absolute;
+  background-color: white;
+  opacity: 0.8;
+  bottom: 50px;
+  left: 70px;
+}
+/*--------------------------------------------------------------  */
+.firtsSection-container {
+  background-color: white;
+  margin: 0;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+.firtsSection-container2{
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.firtsSection{
+  position: relative;
+  padding-bottom: 120px;
+
+}
+.firtsSection img{
+  width: 250px;
+  height: 250px;
+  opacity: 0.8;
+}
+.firtsSection img:hover{
+  width: initial;
+  height: initial;
+  width: 370px;
+  opacity: 1;
+}
+.generalDescription{
+  position: absolute;
+  bottom: 0;
+  width: 94%;
+  border-top: 1px dashed gray;
+
+}
+/*--------------------------------------------------------------  */
+.cuerpo-relleno-container{
+  font-size: 30px;
+  color: white;
+  background-color: black;
+}
+/*--------------------------------------------------------------  */
+.footer{
+  background-color: rgb(44,47,51);
+  color: #000000;
+}
+.footer-d{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer-s{
+
+}
+.footer-first-container {
+  display: flex;
+  flex-direction: column;
+}
+.contacto{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+}
+
+.footer-second-container {
+  display: flex;
+  align-items: center;
+
+}
+.form-first-container {
+  display: flex;
+  flex-direction: column;
+  margin: 5px 40px;
+}
+.save-email{
+  width: 52px;
+}
+.contacto strong{
+  padding-right: 10px;
+}
+.form-second-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.boton{
+  border: none;
+  border-radius: 2px;
+}
+textarea {resize: none}
+/*-----------------------------------------------  */
+.principalFooter{
+  /* background-color: rgb(44,47,51); */
+  background-color: transparent;
+}
+.footer-meniu{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.boton-serio{
+  background-color: #cccccc;
+  border-radius: 7px;
+border-color: #a657576b;
+margin: 5px 5px;
+}
+.boton-serio a{
+  color: black;
+  text-decoration: none;
+}
